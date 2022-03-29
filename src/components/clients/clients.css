@@ -1,0 +1,38 @@
+.client-container {
+    background-color: #F6FAF4;
+  }
+
+.client-row {
+    display: flex;
+    height: 3rem;
+    align-items: center;
+}  
+
+.client-col {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: rgb(114, 110, 110);
+}
+
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 30s linear infinite;
+  }
+
+
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }

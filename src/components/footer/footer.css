@@ -1,0 +1,26 @@
+.footer-container {
+    background-color: #494A4B;
+    height: 1cm;
+    bottom: 0;
+    position: fixed;
+    max-width: 2000px; 
+    width: 100%; 
+  }
+
+.footer-row {
+    display: flex;
+    align-items: center;
+}  
+
+.footer-col {
+  height: 1cm;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+  color: #ffff;
+}
+
+.footer-small {
+  width: 1cm;
+}
+
+

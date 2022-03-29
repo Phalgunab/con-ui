@@ -1,0 +1,20 @@
+.imageslider-container {
+    background-color: #F8F3F3;
+  }
+
+.imageslider-row {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}  
+
+.imageslider-col {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: rgb(114, 110, 110);
+  text-align: center;
+}
+
+
+
+
